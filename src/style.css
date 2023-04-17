@@ -8,3 +8,26 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+h1 {
+  color: blue;
+  background-color: yellow;
+  border: 5px dashed black;
+  /* border-top: 5px;
+  border-style: dashed;
+  border-color: black; */
+  padding: 5px 10px 5px 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+h2 {
+  color: green;
+  font-weight: 300;
+}
+
+p {
+  color: red;
+}
