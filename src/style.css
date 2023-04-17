@@ -34,3 +34,23 @@ p {
   /* one declaration */
   color: red;
 }
+
+.first {
+  /* one declaration */
+  font-weight: bold;
+}
+
+.done {
+  /* one declaration */
+  text-decoration: line-through;
+}
+
+#polite {
+  /* one declaration */
+  font-family: cursive;
+}
+#rude {
+  /* one declaration */
+  font-family: monospace;
+  text-transform: uppercase;
+}
