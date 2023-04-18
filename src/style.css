@@ -34,10 +34,30 @@ p {
   /* one declaration */
   color: red;
 }
+p:hover {
+  /* one declaration */
+  width: 100px;
+  height: auto;
+  margin: auto 10px;
+  color: green;
+  transform: translate3d(0px, 0px, 0px);
+  transform: scale(-0.5);
+}
 
-.first {
+li:first-child {
   /* one declaration */
   font-weight: bold;
+}
+/* one declaration
+.first {
+  font-weight: bold;
+}
+*/
+
+li:nth-child(even) {
+  /* one declaration */
+  font-family: cursive;
+  background-color: lightgray;
 }
 
 .done {
