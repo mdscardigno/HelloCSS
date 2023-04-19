@@ -43,6 +43,32 @@ p {
   /* one declaration */
   color: #85577e;
 }
+p::before {
+  /* one declaration */
+  content: '➡️';
+}
+p::first-letter {
+  color: var(--tangerine);
+  font-size: 32px;
+}
+a {
+  /* one declaration */
+  margin-left: 2px;
+  font-size: 32px;
+  color: #2f3737;
+  text-decoration: none;
+}
+
+a:hover {
+  /* one declaration */
+  color: var(--bright-sky);
+}
+
+a::before {
+  /* one declaration */
+  content: '🔗';
+  font-size: 32px;
+}
 p:hover {
   /* one declaration */
   width: 100px;
