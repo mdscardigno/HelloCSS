@@ -1,5 +1,13 @@
 :root {
   font: 16px / 1 sans-serif;
+  --sand: #f7f0da;
+  --bright-sky: #80ced2;
+  --night-sky: #85577e;
+  --sun: d5562b;
+  --sea: #5a9090;
+  --asphalt: #2f3737;
+  --lime: #b1d133;
+  --tangerine: #f99d1b;
 }
 html {
   height: 100%;
@@ -7,12 +15,13 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: #f7f0da;
 }
 
 h1 {
   /* 8 used declarations */
   color: blue;
-  background-color: yellow;
+  background-color: rgb(70, 72, 202);
   border: 5px dashed black;
   /* border-top: 5px;
   border-style: dashed;
@@ -32,7 +41,7 @@ h2 {
 
 p {
   /* one declaration */
-  color: red;
+  color: #85577e;
 }
 p:hover {
   /* one declaration */
