@@ -3,7 +3,7 @@
   --sand: #f7f0da;
   --bright-sky: #80ced2;
   --night-sky: #85577e;
-  --sun: d5562b;
+  --sun: #d5562b;
   --sea: #5a9090;
   --asphalt: #2f3737;
   --lime: #b1d133;
@@ -20,7 +20,7 @@ body {
 
 h1 {
   /* 8 used declarations */
-  color: blue;
+  color: var(--sun);
   background-color: rgb(70, 72, 202);
   border: 5px dashed black;
   /* border-top: 5px;
