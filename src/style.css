@@ -18,7 +18,8 @@ body {
   background-color: #f7f0da;
 }
 
-h1 {
+h1,
+h2 {
   /* 8 used declarations */
   color: var(--sun);
   background-color: rgb(70, 72, 202);
@@ -33,18 +34,15 @@ h1 {
   padding-left: 10px;
 }
 
-h2 {
-  /* two declarations */
-  color: green;
-  font-weight: 300;
-}
-
 p {
   /* one declaration */
   color: #85577e;
 }
-p::before {
+/* list element */
+p::before,
+p::selection {
   /* one declaration */
+  color: red;
   content: '➡️';
 }
 p::first-letter {
@@ -64,7 +62,8 @@ a:hover {
   color: var(--bright-sky);
 }
 
-a::before {
+a::before,
+a::after {
   /* one declaration */
   content: '🔗';
   font-size: 32px;
@@ -95,9 +94,27 @@ li:nth-child(even) {
   background-color: lightgray;
 }
 
-.done {
+/*an example of descendant child oe ANY child combination selectors: only applies to elements with class "done"
+but only if they are a child of an (ul) */
+/* ul .done {
+  text-decoration: line-through;
+} 
+*/
+
+/* an example of direct child */
+ul > .done {
   /* one declaration */
   text-decoration: line-through;
+}
+/* any li that has an li before */
+li + li {
+  /* one declaration */
+  color: rebeccapurple;
+}
+
+li ~ .done {
+  /* one declaration */
+  color: red;
 }
 
 #polite {
