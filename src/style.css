@@ -1,4 +1,5 @@
 :root {
+  /* 16 is a nice size because it is a power of two and scales nicely */
   font: 16px / 1 sans-serif;
   --sand: #f7f0da;
   --bright-sky: #80ced2;
@@ -9,9 +10,11 @@
   --lime: #b1d133;
   --tangerine: #f99d1b;
 }
+
 html {
   height: 100%;
 }
+
 body {
   margin: 0;
   min-height: 100%;
@@ -82,6 +85,7 @@ li:first-child {
   /* one declaration */
   font-weight: bold;
 }
+
 /* one declaration
 .first {
   font-weight: bold;
@@ -106,6 +110,7 @@ ul > .done {
   /* one declaration */
   text-decoration: line-through;
 }
+
 /* any li that has an li before */
 li + li {
   /* one declaration */
@@ -125,4 +130,20 @@ li ~ .done {
   /* one declaration */
   font-family: monospace;
   text-transform: uppercase;
+}
+nav {
+  font-size: 2rem;
+}
+
+.welcome {
+  font-size: 3rem;
+}
+
+.subhead {
+  font-size: 0.5rem;
+}
+
+nav .welcome {
+  color: var(--night-sky);
+  font-size: 4rem;
 }
