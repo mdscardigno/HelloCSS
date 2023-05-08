@@ -157,6 +157,16 @@ main {
   /*padding of 1rem top 2rem left and right and 3rem bottom */
   /*padding: 1rem 2rem 3rem;*/
   /*padding on all sides*/
-  padding: 3rem;
+  /* padding: 3rem; */
+  /* padding: 1rem 2rem 3rem 4rem;*/
   border: 5px solid red;
+  margin: 3rem;
+}
+aside {
+  border: 5px solid green;
+  /* border-radius: 10px / 20px; */
+  border-radius: 10px 30px / 20px 40px;
+  margin: 3rem;
+  /* margin: 28rem; */
+  /* overflow: hidden; */
 }
